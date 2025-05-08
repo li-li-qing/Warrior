@@ -1,0 +1,21 @@
+# Unreal Engine 构建输出（通常不上传）
+Binaries/                 # 打包后生成的二进制
+Build/                    # 构建设置（可选保留）
+DerivedDataCache/         # UE运行时缓存
+Intermediate/             # 编译缓存
+Saved/                    # 自动保存、日志、CrashReport 等
+
+# Visual Studio 文件
+.vs/                      # VS 的缓存目录
+*.VC.db                   # 数据库文件
+*.sdf                     # Intellisense 文件
+*.opensdf
+*.suo
+*.user                    # 用户个性化设置
+
+# Mac 和 Windows 的临时文件
+.DS_Store                 # macOS 生成的隐藏文件
+Thumbs.db                 # Windows 生成的缩略图缓存
+
+# 忽略 backup 文件
+*.bak                     # 备份文件
